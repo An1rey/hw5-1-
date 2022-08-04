@@ -1,15 +1,17 @@
+
 @font-face {
     font-family: 'Poppins';
-    src: url('../Poppins-Regular.eot');
-    src: url('../Poppins-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../Poppins-Regular.woff2') format('woff2'),
-    url('../Poppins-Regular.woff') format('woff'),
-    url('../Poppins-Regular.ttf') format('truetype'),
-    url('../Poppins-Regular.svg#Poppins-Regular') format('svg');
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Poppins-Regular.woff2') format('woff2'),
+    url('../fonts/Poppins-Regular.woff') format('woff'),
+    url('../fonts/Poppins-Regular.ttf') format('truetype'),
+    url('../fonts/Poppins-Regular.svg#Poppins-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
 *{
     padding: 0;
     margin: 0;
@@ -41,8 +43,7 @@ header{
 
 }
 .subtitle{
-    font-family: 'Poppins';
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     display: inline-block;
     text-decoration: none;
     font-style: normal;
@@ -53,8 +54,7 @@ header{
     margin-right: 56px;
 }
 .subhead{
-    font-family: 'Poppins';
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     display: inline-block;
     text-decoration: none;
     font-style: normal;
@@ -69,15 +69,14 @@ header{
     background: #FFFFFF;
     text-decoration: none;
     border-radius: 14px;
-    font-family: 'Poppins';
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     color: #000000;
 }
-section{
+.main_banner{
     background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%), url(.jpg);
     border-radius: 0px;
     padding-top: 466px;
@@ -86,10 +85,10 @@ section{
     background-size: cover;
     height: 100vh;
     box-sizing: border-box;
+    position: relative;
 }
 .slogan{
-    font-family: 'Poppins';
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -100,8 +99,7 @@ section{
     color: #C0C0C0;
 }
 .text{
-    font-family: 'Poppins';
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 54px;
@@ -110,8 +108,7 @@ section{
     color: #FFFFFF;
 }
 .paragraph{
-    font-family: 'Poppins';
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -119,4 +116,52 @@ section{
     text-align: center;
     color: #C0C0C0;
 }
+.fixed_information li{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    display: inline-flex;
+    margin-left: 16px;
+}
+.fixed_information{
+    position: absolute;
+    bottom: 41px;
+    right:40px;
+}
+.fixed_information li:before{
+    content: "";
+    background-image: url("../images/time.svg");
+    width: 16px;
+    height:16px;
+    display: block;
+    margin-right: 6px;
+}
+.fixed_information li:nth-child(2):before{
+    content: "";
+    background-image: url("../images/spiral.svg");
+    width: 16px;
+    height:16px;
+    display: block;
+    margin-right: 6px;
+}
+.fixed_information li:nth-child(3):before{
+    content: "";
+    background-image: url("../images/panel.svg");
+    width: 32px;
+    height:16px;
+    display: block;
+    margin-right: 6px;
+}
+.fixed_information li:last-of-type:before{
+    content: "";
+    background-image: url("../images/map_marker.svg");
+    width: 10px;
+    height:16px;
+    display: block;
+    margin-right: 6px;
+}
+
 
