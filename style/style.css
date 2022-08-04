@@ -163,5 +163,38 @@ header{
     display: block;
     margin-right: 6px;
 }
+.box{
+    background: #000000;
+    border-radius: 0px;
+    padding-top: 113px;
+    padding-bottom: 169px;
+}
+.caption{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.article{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-top: 15px;
+}
+.sponsor{
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 111px;
+}
 
 
