@@ -304,6 +304,118 @@ header{
     display: block;
     margin-right: 6px;
 }
+.box{
+    background: #000000;
+    border-radius: 0px;
+    padding-top: 113px;
+    padding-bottom: 169px;
+}
+.caption{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.article{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-top: 15px;
+}
+.sponsor{
+    max-width: 1240px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 111px;
+}
+.my-flex-block{
+    height:100px;
+    background-color: red;
+    margin: 10px;
+}
+.my-flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+.module_1{
+    background-size: cover;
+    height: 600px;
+    border-radius: 0px;
+    background-image: url('../images/back_1.jpg');
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+}
+.paragraph_2{
+    width: 241px;
+}
+.headline_1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.paragraph_3{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-right: 119px;
+}
+.fixed_information{
+    position: absolute;
+    bottom: 41px;
+    right:40px;
+}
+.fixed_information li:before{
+    content: "";
+    background-image: url("../images/time.svg");
+    width: 16px;
+    height:16px;
+    display: block;
+    margin-right: 6px;
+}
+.fixed_information li:nth-child(2):before{
+    content: "";
+    background-image: url("../images/spiral.svg");
+    width: 16px;
+    height:16px;
+    display: block;
+    margin-right: 6px;
+}
+.fixed_information li:nth-child(3):before{
+    content: "";
+    background-image: url("../images/panel.svg");
+    width: 32px;
+    height:16px;
+    display: block;
+    margin-right: 6px;
+}
+.fixed_information li:last-of-type:before{
+    content: "";
+    background-image: url("../images/map_marker.svg");
+    width: 10px;
+    height:16px;
+    display: block;
+    margin-right: 6px;
+}
+
 
 
 
