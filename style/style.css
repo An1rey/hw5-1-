@@ -415,6 +415,66 @@ header{
     display: block;
     margin-right: 6px;
 }
+.case{
+    background: black;
+    height:414px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 113px;
+}
+.main_page1{
+    width: 571px;
+    text-align: center;
+}
+.info{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.rubric{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 22px;
+}
+.subtitle_1{
+    padding: 9px 10px 13px;
+    margin-top: 22px;
+    align-items: center;
+    display: inline-flex;
+    background: #FFFFFF;
+    text-decoration: none;
+    border-radius: 14px;
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+}
+.subtitle_1::before{
+    content: "";
+    display: block;
+    background-image: url('../images/button.svg');
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+}
+
 
 
 
