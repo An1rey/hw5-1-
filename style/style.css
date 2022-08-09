@@ -358,6 +358,7 @@ header{
 }
 .main_page2{
     width: 241px;
+    margin-right: 119px;
 }
 .headline_1{
     font-family: 'Poppins',sans-serif;
@@ -438,7 +439,7 @@ header{
     color: #FFFFFF;
 }
 .rubric{
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
