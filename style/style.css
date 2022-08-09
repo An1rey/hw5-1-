@@ -89,6 +89,7 @@ header{
 }
 .main_page{
     width: 580px;
+    margin-right: 62px;
 }
 .slogan{
     font-family: 'Poppins',sans-serif;
@@ -188,6 +189,7 @@ header{
 }
 .text_1{
     width: 298px;
+    margin-right: 62px;
 }
 .script{
     font-family: 'Poppins',sans-serif;
@@ -196,7 +198,7 @@ header{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
-    margin-right: 62px;
+
 }
 .fixed_information{
     position: absolute;
@@ -247,6 +249,7 @@ header{
 }
 .text_2{
     width: 273px;
+    margin-right: 87px;
 }
 .headline{
     font-family: 'Poppins',sans-serif;
@@ -265,7 +268,6 @@ header{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
-    margin-right: 87px;
 }
 .fixed_information{
     position: absolute;
