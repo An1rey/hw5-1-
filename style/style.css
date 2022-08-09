@@ -356,7 +356,7 @@ header{
     align-items: center;
     position: relative;
 }
-.paragraph_2{
+.main_page2{
     width: 241px;
 }
 .headline_1{
@@ -376,7 +376,6 @@ header{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
-    margin-right: 119px;
 }
 .fixed_information{
     position: absolute;
