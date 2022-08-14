@@ -35,6 +35,8 @@ header{
 .list{
     display: flex;
     list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 .item{
     margin-right: 32px;
@@ -167,15 +169,24 @@ header{
     display: block;
     margin-right: 6px;
 }
-.holder{
-    padding-top: 113px;
+.what_we_do {
+    padding-top: 112px;
     padding-bottom: 100px;
     background-color: black;
 }
-.holder.container_2{
-    max-width: 1168px;
+
+.what_we_do .d-flex {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
 }
-.holder h2{
+
+.what_we_do .main_container {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.what_we_do h2 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -183,8 +194,10 @@ header{
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
+    padding-bottom: 15px;
 }
-.holder p{
+
+.what_we_do p {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -192,14 +205,50 @@ header{
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
+    padding-bottom: 42px;
 }
-.holder .photo{
+
+
+.what_we_do .main_item {
     max-width: 576px;
-    position:relative ;
+    position: relative;
+    margin-bottom: 16px;
 }
-.holder .photo img{
-    display: inline-block;
+
+.what_we_do .main_item img {
+    display: block;
     width: 100%;
+}
+
+.what_we_do .main_item .description {
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    bottom: 0;
+    color: white;
+}
+
+.what_we_do .main_item .description h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
+
+.what_we_do .main_item .description p {
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
 }
 .module{
     background-size: cover;
