@@ -561,6 +561,8 @@ header{
 footer{
     padding-top: 100px;
     padding-bottom: 104px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: black;
 }
 .footer_container{
@@ -657,12 +659,13 @@ footer{
 .footer_button input {
     background-color: transparent;
     border: none;
+    outline: none;
     text-shadow: none;
     width: 382px;
     margin: 6px 6px 6px;
 }
 
-.footer_button button {
+.footer_button .submit_button {
     margin: 11px 6px 11px 0;
     background: #000000;
     border-radius: 11px;
