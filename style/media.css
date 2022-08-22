@@ -1,3 +1,982 @@
+@media  screen and (max-width: 280px){
+    header{
+        padding: 24px 15px;
+    }
+    nav{
+        display: none;
+    }
+    .main_banner{
+        height: 100vh;
+    }
+    .logo{
+        width: 75px;
+    }
+    .slogan{
+        font-size: 7px;
+        line-height: 10px;
+        padding-right: 15px;
+        padding-left: 70px;
+    }
+    .text{
+        font-size: 15px;
+        line-height: 15px;
+        padding-right: 15px;
+        padding-left: 70px;
+    }
+    .paragraph{
+        font-size: 5px;
+        line-height: 8px;
+        padding-right: 15px;
+        padding-left: 70px;
+    }
+    .fixed_information{
+        position: absolute;
+        bottom: 0;
+        right:0;
+    }
+    .what_we_do h2 {
+        font-size: 25px;
+        line-height: 35px;
+        padding-bottom: 15px;
+    }
+    .what_we_do p {
+        font-size: 15px;
+        line-height: 25px;
+        padding-bottom: 42px;
+    }
+    .what_we_do .main_item .description h4 {
+        font-size: 11px;
+        line-height: 17px;
+        padding-bottom: 15px;
+    }
+    .what_we_do .main_item .description p {
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .banner {
+        font-size: 11px;
+        line-height: 17px;
+        padding-left: 30px;
+    }
+    .script {
+        font-size: 11px;
+        line-height: 17px;
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 6px;
+    }
+    .headline {
+        font-size: 11px;
+        line-height: 17px;
+        padding-left: 30px;
+    }
+    .paragraph_1 {
+        font-size: 11px;
+        line-height: 17px;
+        padding-left: 30px;
+    }
+    .caption {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .article {
+        font-size: 13px;
+        line-height: 23px;
+        padding-top: 15px;
+    }
+    .sponsor{
+        flex-direction: column;
+    }
+    .headline_1 {
+        font-size: 11px;
+        line-height: 17px;
+        padding-left: 30px;
+    }
+    .paragraph_3 {
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 30px;
+    }
+    .info {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .rubric {
+        font-size: 25px;
+        line-height: 42px;
+        padding-top: 15px;
+    }
+    .logo_desript p {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo_desript img {
+        width: 60px;
+    }
+    .footer_title {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .foot_item {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .footer_button form {
+        width: 210px;
 
+    }
+    .footer_button input {
+        display: block;
+        width: 100px;
+    }
+    .footer_button h3 {
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+}
+@media  screen and (max-width: 320px){
+    header{
+        padding: 24px 15px;
+    }
+
+    nav{
+        display: none;
+    }
+    .slogan{
+        padding-right: 15px;
+        padding-left: 90px;
+    }
+    .text {
+        font-size: 25px;
+        line-height: 35px;
+        padding-right: 15px;
+        padding-left: 90px;
+    }
+    .paragraph {
+        font-size: 11px;
+        line-height: 17px;
+        padding-right: 15px;
+        padding-left: 90px;
+        padding-bottom: 75px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .what_we_do .main_container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .banner {
+        padding-left: 30px;
+    }
+    .script {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .headline {
+        padding-left: 30px;
+    }
+    .paragraph_1{
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 7px;
+    }
+    .caption {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .article {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .sponsor{
+        flex-direction: column;
+    }
+    .headline_1 {
+        padding-left: 30px;
+    }
+    .paragraph_3 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 7px;
+    }
+    .info {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .rubric {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo_desript img {
+        width: 60px;
+    }
+    .footer_title {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .foot_item {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .footer_button form {
+        width: 220px;
+
+    }
+    .footer_button input {
+        display: block;
+        width: 100px;
+    }
+    .footer_button h3 {
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+}
+@media  screen and (max-width: 360px){
+    nav{
+        display: none;
+    }
+    .slogan{
+        padding-left: 40px;
+    }
+    .text {
+        font-size: 40px;
+        line-height: 45px;
+        padding-left: 40px;
+    }
+    .paragraph {
+        font-size: 13px;
+        line-height: 19px;
+        padding-left: 40px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 5px;
+        right: 6px;
+    }
+    .banner {
+        padding-left: 30px;
+    }
+    .script{
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .headline {
+        padding-left: 30px;
+    }
+    .paragraph_1 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .caption {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .article {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .sponsor{
+        flex-direction: column;
+    }
+    .headline_1 {
+        padding-left: 30px;
+    }
+    .paragraph_3 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 7px;
+    }
+    .info {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .rubric {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo_desript img {
+        width: 60px;
+    }
+    .footer_title {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .foot_item {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .footer_button form {
+        width: 220px;
+
+    }
+    .footer_button input {
+        display: block;
+        width: 100px;
+    }
+    .footer_button h3 {
+        font-size: 11px;
+        line-height: 17px;
+    }
+}
+@media  screen and (max-width: 375px){
+    .slogan{
+        padding-left: 40px;
+    }
+    .text {
+        font-size: 40px;
+        line-height: 45px;
+        padding-left: 40px;
+    }
+    .paragraph {
+        font-size: 13px;
+        line-height: 19px;
+        padding-left: 40px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 5px;
+        right: 6px;
+    }
+    .banner {
+        padding-left: 30px;
+    }
+    .script{
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .headline {
+        padding-left: 30px;
+    }
+    .paragraph_1 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .caption {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .article {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .sponsor{
+        flex-direction: column;
+    }
+    .headline_1 {
+        padding-left: 30px;
+    }
+    .paragraph_3 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 7px;
+    }
+    .info {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .rubric {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo_desript img {
+        width: 60px;
+    }
+    .footer_title {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .foot_item {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .footer_button form {
+        width: 220px;
+
+    }
+    .footer_button input {
+        display: block;
+        width: 100px;
+    }
+    .footer_button h3 {
+        font-size: 11px;
+        line-height: 17px;
+    }
+}
+@media  screen and (max-width: 390px){
+    .slogan{
+        padding-left: 40px;
+    }
+    .text {
+        font-size: 40px;
+        line-height: 45px;
+        padding-left: 40px;
+    }
+    .paragraph {
+        font-size: 13px;
+        line-height: 19px;
+        padding-left: 40px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 5px;
+        right: 6px;
+    }
+    .banner {
+        padding-left: 30px;
+    }
+    .script{
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .headline {
+        padding-left: 30px;
+    }
+    .paragraph_1 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .caption {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .article {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .sponsor{
+        flex-direction: column;
+    }
+    .headline_1 {
+        padding-left: 30px;
+    }
+    .paragraph_3 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 7px;
+    }
+    .info {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .rubric {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo_desript img {
+        width: 60px;
+    }
+    .footer_title {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .foot_item {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .footer_button form {
+        width: 220px;
+
+    }
+    .footer_button input {
+        display: block;
+        width: 100px;
+    }
+    .footer_button h3 {
+        font-size: 11px;
+        line-height: 17px;
+    }
+}
+@media screen and (max-width: 414px){
+    .main_banner{
+        height: 75vh;
+    }
+    .slogan{
+        padding-left: 40px;
+    }
+    .text {
+        font-size: 40px;
+        line-height: 45px;
+        padding-left: 40px;
+    }
+    .paragraph {
+        font-size: 13px;
+        line-height: 19px;
+        padding-left: 40px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 5px;
+        right: 6px;
+    }
+    .banner {
+        padding-left: 30px;
+    }
+    .script{
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .headline {
+        padding-left: 30px;
+    }
+    .paragraph_1 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .caption {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .article {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .sponsor{
+        flex-direction: column;
+    }
+    .headline_1 {
+        padding-left: 30px;
+    }
+    .paragraph_3 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 7px;
+    }
+    .info {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .rubric {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo_desript img {
+        width: 60px;
+    }
+    .footer_title {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .foot_item {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .footer_button form {
+        width: 220px;
+
+    }
+    .footer_button input {
+        display: block;
+        width: 100px;
+    }
+    .footer_button h3 {
+        font-size: 11px;
+        line-height: 17px;
+    }
+}
+@media screen and (max-width: 428px){
+    .main_banner{
+        height: 75vh;
+    }
+    .slogan{
+        padding-left: 40px;
+    }
+    .text {
+        font-size: 40px;
+        line-height: 45px;
+        padding-left: 40px;
+    }
+    .paragraph {
+        font-size: 13px;
+        line-height: 19px;
+        padding-left: 40px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 5px;
+        right: 6px;
+    }
+    .banner {
+        padding-left: 30px;
+    }
+    .script{
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .headline {
+        padding-left: 30px;
+    }
+    .paragraph_1 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .caption {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .article {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .sponsor{
+        flex-direction: column;
+    }
+    .headline_1 {
+        padding-left: 30px;
+    }
+    .paragraph_3 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 7px;
+    }
+    .info {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .rubric {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo_desript img {
+        width: 60px;
+    }
+    .footer_title {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .foot_item {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .footer_button form {
+        width: 220px;
+
+    }
+    .footer_button input {
+        display: block;
+        width: 100px;
+    }
+    .footer_button h3 {
+        font-size: 11px;
+        line-height: 17px;
+    }
+}
+@media screen and (max-width: 768px){
+    .main_banner{
+        height: 75vh;
+    }
+    .slogan{
+        padding-left: 40px;
+    }
+    .text {
+        font-size: 40px;
+        line-height: 45px;
+        padding-left: 40px;
+    }
+    .paragraph {
+        font-size: 13px;
+        line-height: 19px;
+        padding-left: 40px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 5px;
+        right: 6px;
+    }
+    .banner {
+        padding-left: 30px;
+    }
+    .script{
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .headline {
+        padding-left: 30px;
+    }
+    .paragraph_1 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .caption {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .article {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .headline_1 {
+        padding-left: 30px;
+    }
+    .paragraph_3 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 7px;
+    }
+    .info {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .rubric {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo_desript img {
+        width: 60px;
+    }
+    .footer_title {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .foot_item {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .footer_button form {
+        width: 220px;
+
+    }
+    .footer_button input {
+        display: block;
+        width: 100px;
+    }
+    .footer_button h3 {
+        font-size: 11px;
+        line-height: 17px;
+    }
+}
+@media screen and (max-width: 820px){
+    .what_we_do .main_item {
+        padding-left: 70px;
+
+    }
+}
+@media screen and (max-width: 992px){
+    .slogan{
+        padding-left: 40px;
+    }
+    .text {
+        font-size: 40px;
+        line-height: 45px;
+        padding-left: 40px;
+    }
+    .paragraph {
+        font-size: 13px;
+        line-height: 19px;
+        padding-left: 40px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 5px;
+        right: 6px;
+    }
+    .banner {
+        padding-left: 30px;
+    }
+    .script{
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .headline {
+        padding-left: 30px;
+    }
+    .paragraph_1 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 6px;
+    }
+    .caption {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .article {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .sponsor{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .headline_1 {
+        padding-left: 30px;
+    }
+    .paragraph_3 {
+        padding-left: 30px;
+    }
+    .fixed_information {
+        position: absolute;
+        bottom: 0;
+        right: 7px;
+    }
+    .info {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    .rubric {
+        font-size: 25px;
+        line-height: 37px;
+    }
+    footer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .logo_desript img {
+        width: 60px;
+    }
+    .footer_title {
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .foot_item {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .footer_button form {
+        width: 220px;
+
+    }
+    .footer_button input {
+        display: block;
+        width: 100px;
+    }
+    .footer_button h3 {
+        font-size: 11px;
+        line-height: 17px;
+    }
+}
+@media screen and (max-width: 1024px){
+    nav{
+        display: none;
+    }
+    .main_banner{
+        height: 75vh;
+    }
+    .what_we_do .main_container {
+        padding: 170px;
+    }
+}
 
 
