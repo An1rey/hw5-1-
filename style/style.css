@@ -390,7 +390,7 @@ header{
     margin-right: 6px;
 }
 .box{
-    background: #000000;
+    background: black;
     border-radius: 0px;
     padding-top: 113px;
     padding-bottom: 169px;
@@ -421,6 +421,10 @@ header{
     margin: auto;
     justify-content: space-between;
     padding-top: 111px;
+}
+.box a{
+    display: inline-block;
+    max-width: 128px;
 }
 .my-flex-block{
     height:100px;
@@ -647,29 +651,33 @@ footer{
 }
 
 .footer_button form {
-    width: 458px;
     display: flex;
-    justify-content: space-between;
+    box-sizing: border-box;
     background: #F9FAFB;
     border: 1px solid #E5E7EB;
     border-radius: 12px;
-    height: 52px;
+    padding: 7px 6px 7px 7px;
+    align-items: center;
+    max-width: 458px;
+    width: 100%;
 }
-
 .footer_button input {
     background-color: transparent;
     border: none;
     outline: none;
-    text-shadow: none;
-    width: 382px;
-    margin: 6px 6px 6px;
+    width: 100%;
+    height: 38px;
+    margin-right: 6px;
+    font: 20px 'poppinsregular';
 }
-
 .footer_button .submit_button {
-    margin: 11px 6px 11px 0;
     background: #000000;
     border-radius: 11px;
-    width: 63px;
+    max-width: 63px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
 }
 .footer_button_1 {
     display: flex;
@@ -702,6 +710,39 @@ footer{
 .footer_button_1 ul li:first-of-type {
     margin-right: 20px;
 }
+.owl-stage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.owl-nav .owl-prev{
+    position: absolute;
+    left: 0;
+
+    top:130px;
+}
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f053";
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.owl-nav .owl-next{
+    position: absolute;
+    right: 0;
+    top:130px;
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f054";
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
 
 
 

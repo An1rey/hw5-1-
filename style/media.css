@@ -1,979 +1,288 @@
-@media  screen and (max-width: 280px){
+@media screen and (max-width: 1320px) {
     header{
-        padding: 24px 15px;
+        padding: 24px 60px;
     }
-    nav{
+    header li:first-of-type {
+        margin-right: 25px;
+    }
+    header li {
+        margin-right: 20px;
+    }
+    header li:nth-child(4) {
+        margin-right: 20px;
+    }
+    header li:last-of-type {
+        margin-right: 0px;
+    }
+    footer {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .section_main{
+        background-attachment: scroll;
+    }
+    .fuji {
+        background-attachment: scroll;
+    }
+    .leafs {
+        background-attachment: scroll;
+    }
+    .himalayas {
+        background-attachment: scroll;
+    }
+
+}
+@media screen and (max-width: 1199px) {
+    .past_clients{
+        padding-right: 55px;
+        padding-left: 55px;
+    }
+    .what_we_do {
+        padding: 60px 15px 50px 15px;
+
+    }
+    .list_box {
+        margin-left: 100px;
+    }
+
+
+}
+
+@media screen and (max-width: 880px) {
+    header{
+        padding: 24px 50px;
+    }
+    header li:first-of-type {
+        margin-right: 15px;
+    }
+    header li {
+        margin-right: 10px;
+    }
+    header li:nth-child(4) {
+        margin-right: 10px;
+    }
+    header li:last-of-type {
+        margin-right: 0px;
+        padding: 10px 10px 10px 10px;
+    }
+    .section_main {
+        height: 90vh;
+    }
+    .list_box {
+        display: block;
+        justify-content: left;
+        margin-left: 100px;
+    }
+    .list_box ul {
+        margin-bottom: 30px;
+
+    }
+
+}
+
+
+@media screen and (max-width: 834px) {
+    .subscribe_box{
+        display: block;
+    }
+    .subscribe_box p {
+        margin-bottom: 20px;
+    }
+    .subscribe_box h3{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 783px) {
+    header li:first-of-type {
         display: none;
     }
-    .main_banner{
-        height: 100vh;
+
+}
+@media screen and (max-width: 680px) {
+    header li {
+        display: none;
     }
-    .logo{
-        width: 75px;
+    header li:last-of-type {
+        display: inline-block;
     }
-    .slogan{
-        font-size: 7px;
-        line-height: 10px;
+    .section_main__central_conteiner p{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .list_box {
+        margin-left: 15px;
+    }
+    footer{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .section_help{
         padding-right: 15px;
-        padding-left: 70px;
+        padding-left: 15px;
     }
-    .text{
-        font-size: 15px;
-        line-height: 15px;
-        padding-right: 15px;
-        padding-left: 70px;
+    .section_main{
+        background-image: url("../images/background_main_mob.jpg");
     }
-    .paragraph{
-        font-size: 5px;
-        line-height: 8px;
-        padding-right: 15px;
-        padding-left: 70px;
+}
+@media screen and (max-width: 577px) {
+    .list_box {
+        width: 219px;
+
     }
-    .fixed_information{
-        position: absolute;
-        bottom: 0;
-        right:0;
+    .social_box {
+        display: block;
+        text-align: center;
+    }
+    .social_items{
+        justify-content: center;
+    }
+    .social_box p{
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width: 428px) {
+    .section_main__central_conteiner p{
+
+        font: 12px/16px 'poppinsregular';
+    }
+    .what_we_do {
+        padding: 60px 15px 50px 15px;
+
+    }
+    header li:last-of-type {
+        display: none;
+    }
+    .list_box {
+        display: block;
+        justify-content: left;
+    }
+    .list_box ul {
+        margin-bottom: 30px;
+        max-width: 150px;
+    }
+    .list_box ul li a{
+        font: 12px/16px 'poppinsregular';
+    }
+    .list_box ul li {
+        margin-bottom: 5px;
+    }
+    .fixed_information {
+        bottom: calc(5% - 8px);
+        right: calc(50% - 108px);
+    }
+    .fixed_information li {
+        font: 10px/10px 'poppinsregular';
+        margin-left: 10px;
+    }
+    .fixed_information li:before {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 12px;
+        margin-right: 3px;
+    }
+    .fixed_information li:nth-child(2):before {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 12px;
+        margin-right: 3px;
+    }
+    .fixed_information li:nth-child(3):before {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 12px;
+        margin-right: 3px;
+    }
+    .fixed_information li:last-of-type:before {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 12px;
+        height: 12px;
+        margin-right: 3px;
+    }
+    .fuji .fixed_information{
+        bottom: calc(5% - 8px);
+        right: calc(50% - 94px);
+    }
+    .leafs .fixed_information{
+        bottom: calc(5% - 8px);
+        right: calc(50% - 118px);
+    }
+    .himalayas .fixed_information{
+        bottom: calc(5% - 8px);
+        right: calc(50% - 92px);
+    }
+    .past_clients{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .section_main {
+        height: 85vh;
+    }
+    .section_main__central_conteiner h1 {
+        font: 36px/38px 'poppinsregular';
+        margin-bottom: 15px;
+    }
+    .section_main__central_conteiner h3 {
+        font: 12px/18px 'poppinsregular';
+
     }
     .what_we_do h2 {
-        font-size: 25px;
-        line-height: 35px;
-        padding-bottom: 15px;
+        font: 36px/38px 'poppinsregular';
     }
-    .what_we_do p {
-        font-size: 15px;
-        line-height: 25px;
-        padding-bottom: 42px;
+    .past_clients h2 {
+        font: 36px/38px 'poppinsregular';
     }
-    .what_we_do .main_item .description h4 {
-        font-size: 11px;
-        line-height: 17px;
-        padding-bottom: 15px;
+    .past_clients h3 {
+        font: 20px/26px 'poppinsregular';
+        max-width: 300px;
+        margin-bottom: 82px;
+        display: inline-block;
     }
-    .what_we_do .main_item .description p {
-        font-size: 11px;
-        line-height: 17px;
-    }
-    .banner {
-        font-size: 11px;
-        line-height: 17px;
-        padding-left: 30px;
-    }
-    .script {
-        font-size: 11px;
-        line-height: 17px;
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 6px;
-    }
-    .headline {
-        font-size: 11px;
-        line-height: 17px;
-        padding-left: 30px;
-    }
-    .paragraph_1 {
-        font-size: 11px;
-        line-height: 17px;
-        padding-left: 30px;
-    }
-    .caption {
-        font-size: 25px;
-        line-height: 35px;
-    }
-    .article {
-        font-size: 13px;
-        line-height: 23px;
-        padding-top: 15px;
-    }
-    .sponsor{
-        flex-direction: column;
-    }
-    .headline_1 {
-        font-size: 11px;
-        line-height: 17px;
-        padding-left: 30px;
-    }
-    .paragraph_3 {
-        font-size: 14px;
-        line-height: 20px;
-        padding-left: 30px;
-    }
-    .info {
-        font-size: 20px;
-        line-height: 25px;
-    }
-    .rubric {
-        font-size: 25px;
-        line-height: 42px;
-        padding-top: 15px;
-    }
-    .logo_desript p {
-        font-weight: 400;
-        font-size: 12px;
-    }
-    footer {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .logo_desript img {
-        width: 60px;
-    }
-    .footer_title {
-        font-size: 10px;
-        line-height: 16px;
-    }
-    .foot_item {
-        font-size: 10px;
-        line-height: 17px;
-    }
-    .footer_button form {
-        width: 210px;
+    .section_help h2 {
+        font: 36px/38px 'poppinsregular';
 
     }
-    .footer_button input {
+}
+
+
+@media screen and (max-width: 375px) {
+    .menu_box {
         display: block;
-        width: 100px;
-    }
-    .footer_button h3 {
-        font-size: 11px;
-        line-height: 17px;
-    }
-
-}
-@media  screen and (max-width: 320px){
-    header{
-        padding: 24px 15px;
-    }
-
-    nav{
-        display: none;
-    }
-    .slogan{
-        padding-right: 15px;
-        padding-left: 90px;
-    }
-    .text {
-        font-size: 25px;
-        line-height: 35px;
-        padding-right: 15px;
-        padding-left: 90px;
-    }
-    .paragraph {
-        font-size: 11px;
-        line-height: 17px;
-        padding-right: 15px;
-        padding-left: 90px;
-        padding-bottom: 75px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .what_we_do .main_container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .banner {
-        padding-left: 30px;
-    }
-    .script {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .headline {
-        padding-left: 30px;
-    }
-    .paragraph_1{
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 7px;
-    }
-    .caption {
-        font-size: 25px;
-        line-height: 35px;
-    }
-    .article {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    .sponsor{
-        flex-direction: column;
-    }
-    .headline_1 {
-        padding-left: 30px;
-    }
-    .paragraph_3 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 7px;
-    }
-    .info {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    .rubric {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    footer {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .logo_desript img {
-        width: 60px;
-    }
-    .footer_title {
-        font-size: 10px;
-        line-height: 16px;
-    }
-    .foot_item {
-        font-size: 10px;
-        line-height: 17px;
-    }
-    .footer_button form {
-        width: 220px;
 
     }
-    .footer_button input {
-        display: block;
-        width: 100px;
+    .logo_box {
+        margin-bottom: 30px;
     }
-    .footer_button h3 {
-        font-size: 11px;
-        line-height: 17px;
-    }
-
-}
-@media  screen and (max-width: 360px){
-    nav{
-        display: none;
-    }
-    .slogan{
-        padding-left: 40px;
-    }
-    .text {
-        font-size: 40px;
-        line-height: 45px;
-        padding-left: 40px;
-    }
-    .paragraph {
-        font-size: 13px;
-        line-height: 19px;
-        padding-left: 40px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 5px;
-        right: 6px;
-    }
-    .banner {
-        padding-left: 30px;
-    }
-    .script{
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .headline {
-        padding-left: 30px;
-    }
-    .paragraph_1 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .caption {
-        font-size: 25px;
-        line-height: 35px;
-    }
-    .article {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    .sponsor{
-        flex-direction: column;
-    }
-    .headline_1 {
-        padding-left: 30px;
-    }
-    .paragraph_3 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 7px;
-    }
-    .info {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    .rubric {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    footer {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .logo_desript img {
-        width: 60px;
-    }
-    .footer_title {
-        font-size: 10px;
-        line-height: 16px;
-    }
-    .foot_item {
-        font-size: 10px;
-        line-height: 17px;
-    }
-    .footer_button form {
-        width: 220px;
+    .list_box{
+        margin-left: 0;
 
     }
-    .footer_button input {
-        display: block;
-        width: 100px;
-    }
-    .footer_button h3 {
-        font-size: 11px;
-        line-height: 17px;
+    .list_box ul {
+        margin-left: 0;
     }
 }
-@media  screen and (max-width: 375px){
-    .slogan{
-        padding-left: 40px;
-    }
-    .text {
-        font-size: 40px;
-        line-height: 45px;
-        padding-left: 40px;
-    }
-    .paragraph {
-        font-size: 13px;
-        line-height: 19px;
-        padding-left: 40px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 5px;
-        right: 6px;
-    }
-    .banner {
-        padding-left: 30px;
-    }
-    .script{
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .headline {
-        padding-left: 30px;
-    }
-    .paragraph_1 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .caption {
-        font-size: 25px;
-        line-height: 35px;
-    }
-    .article {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    .sponsor{
-        flex-direction: column;
-    }
-    .headline_1 {
-        padding-left: 30px;
-    }
-    .paragraph_3 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 7px;
-    }
-    .info {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    .rubric {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    footer {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .logo_desript img {
-        width: 60px;
-    }
-    .footer_title {
-        font-size: 10px;
-        line-height: 16px;
-    }
-    .foot_item {
-        font-size: 10px;
-        line-height: 17px;
-    }
-    .footer_button form {
-        width: 220px;
 
-    }
-    .footer_button input {
-        display: block;
-        width: 100px;
-    }
-    .footer_button h3 {
-        font-size: 11px;
-        line-height: 17px;
+@media screen and (max-width: 360px) {
+    .what_we_do .preview .description {
+        padding: 15px;
     }
 }
-@media  screen and (max-width: 390px){
-    .slogan{
-        padding-left: 40px;
-    }
-    .text {
-        font-size: 40px;
-        line-height: 45px;
-        padding-left: 40px;
-    }
-    .paragraph {
-        font-size: 13px;
-        line-height: 19px;
-        padding-left: 40px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 5px;
-        right: 6px;
-    }
-    .banner {
-        padding-left: 30px;
-    }
-    .script{
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .headline {
-        padding-left: 30px;
-    }
-    .paragraph_1 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .caption {
-        font-size: 25px;
-        line-height: 35px;
-    }
-    .article {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    .sponsor{
-        flex-direction: column;
-    }
-    .headline_1 {
-        padding-left: 30px;
-    }
-    .paragraph_3 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 7px;
-    }
-    .info {
-        font-size: 22px;
-        line-height: 35px;
-    }
-    .rubric {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    footer {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .logo_desript img {
-        width: 60px;
-    }
-    .footer_title {
-        font-size: 10px;
-        line-height: 16px;
-    }
-    .foot_item {
-        font-size: 10px;
-        line-height: 17px;
-    }
-    .footer_button form {
-        width: 220px;
 
-    }
-    .footer_button input {
-        display: block;
-        width: 100px;
-    }
-    .footer_button h3 {
-        font-size: 11px;
-        line-height: 17px;
+@media screen and (max-width: 320px) {
+    .preview .description p {
+        font: 12px/16px 'poppinsregular';
+        margin-bottom: 15px;
     }
 }
-@media screen and (max-width: 414px){
-    .main_banner{
-        height: 75vh;
-    }
-    .slogan{
-        padding-left: 40px;
-    }
-    .text {
-        font-size: 40px;
-        line-height: 45px;
-        padding-left: 40px;
-    }
-    .paragraph {
-        font-size: 13px;
-        line-height: 19px;
-        padding-left: 40px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 5px;
-        right: 6px;
-    }
-    .banner {
-        padding-left: 30px;
-    }
-    .script{
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .headline {
-        padding-left: 30px;
-    }
-    .paragraph_1 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .caption {
-        font-size: 25px;
-        line-height: 35px;
-    }
-    .article {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    .sponsor{
-        flex-direction: column;
-    }
-    .headline_1 {
-        padding-left: 30px;
-    }
-    .paragraph_3 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 7px;
-    }
-    .info {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    .rubric {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    footer {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .logo_desript img {
-        width: 60px;
-    }
-    .footer_title {
-        font-size: 10px;
-        line-height: 16px;
-    }
-    .foot_item {
-        font-size: 10px;
-        line-height: 17px;
-    }
-    .footer_button form {
-        width: 220px;
 
-    }
-    .footer_button input {
-        display: block;
-        width: 100px;
-    }
-    .footer_button h3 {
-        font-size: 11px;
-        line-height: 17px;
-    }
-}
-@media screen and (max-width: 428px){
-    .main_banner{
-        height: 75vh;
-    }
-    .slogan{
-        padding-left: 40px;
-    }
-    .text {
-        font-size: 40px;
-        line-height: 45px;
-        padding-left: 40px;
-    }
-    .paragraph {
-        font-size: 13px;
-        line-height: 19px;
-        padding-left: 40px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 5px;
-        right: 6px;
-    }
-    .banner {
-        padding-left: 30px;
-    }
-    .script{
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .headline {
-        padding-left: 30px;
-    }
-    .paragraph_1 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .caption {
-        font-size: 25px;
-        line-height: 35px;
-    }
-    .article {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    .sponsor{
-        flex-direction: column;
-    }
-    .headline_1 {
-        padding-left: 30px;
-    }
-    .paragraph_3 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 7px;
-    }
-    .info {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    .rubric {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    footer {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .logo_desript img {
-        width: 60px;
-    }
-    .footer_title {
-        font-size: 10px;
-        line-height: 16px;
-    }
-    .foot_item {
-        font-size: 10px;
-        line-height: 17px;
-    }
-    .footer_button form {
-        width: 220px;
-
-    }
-    .footer_button input {
-        display: block;
-        width: 100px;
-    }
-    .footer_button h3 {
-        font-size: 11px;
-        line-height: 17px;
-    }
-}
-@media screen and (max-width: 768px){
-    .main_banner{
-        height: 75vh;
-    }
-    .slogan{
-        padding-left: 40px;
-    }
-    .text {
-        font-size: 40px;
-        line-height: 45px;
-        padding-left: 40px;
-    }
-    .paragraph {
-        font-size: 13px;
-        line-height: 19px;
-        padding-left: 40px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 5px;
-        right: 6px;
-    }
-    .banner {
-        padding-left: 30px;
-    }
-    .script{
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .headline {
-        padding-left: 30px;
-    }
-    .paragraph_1 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .caption {
-        font-size: 25px;
-        line-height: 35px;
-    }
-    .article {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    .headline_1 {
-        padding-left: 30px;
-    }
-    .paragraph_3 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 7px;
-    }
-    .info {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    .rubric {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    footer {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .logo_desript img {
-        width: 60px;
-    }
-    .footer_title {
-        font-size: 10px;
-        line-height: 16px;
-    }
-    .foot_item {
-        font-size: 10px;
-        line-height: 17px;
-    }
-    .footer_button form {
-        width: 220px;
-
-    }
-    .footer_button input {
-        display: block;
-        width: 100px;
-    }
-    .footer_button h3 {
-        font-size: 11px;
-        line-height: 17px;
-    }
-}
-@media screen and (max-width: 820px){
-    .what_we_do .main_item {
-        padding-left: 70px;
-
-    }
-}
-@media screen and (max-width: 992px){
-    .slogan{
-        padding-left: 40px;
-    }
-    .text {
-        font-size: 40px;
-        line-height: 45px;
-        padding-left: 40px;
-    }
-    .paragraph {
-        font-size: 13px;
-        line-height: 19px;
-        padding-left: 40px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 5px;
-        right: 6px;
-    }
-    .banner {
-        padding-left: 30px;
-    }
-    .script{
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .headline {
-        padding-left: 30px;
-    }
-    .paragraph_1 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 6px;
-    }
-    .caption {
-        font-size: 25px;
-        line-height: 35px;
-    }
-    .article {
-        font-size: 20px;
-        line-height: 26px;
-    }
-    .sponsor{
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .headline_1 {
-        padding-left: 30px;
-    }
-    .paragraph_3 {
-        padding-left: 30px;
-    }
-    .fixed_information {
-        position: absolute;
-        bottom: 0;
-        right: 7px;
-    }
-    .info {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    .rubric {
-        font-size: 25px;
-        line-height: 37px;
-    }
-    footer {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .logo_desript img {
-        width: 60px;
-    }
-    .footer_title {
-        font-size: 10px;
-        line-height: 16px;
-    }
-    .foot_item {
-        font-size: 10px;
-        line-height: 17px;
-    }
-    .footer_button form {
-        width: 220px;
-
-    }
-    .footer_button input {
-        display: block;
-        width: 100px;
-    }
-    .footer_button h3 {
-        font-size: 11px;
-        line-height: 17px;
-    }
-}
-@media screen and (max-width: 1024px){
-    nav{
-        display: none;
-    }
-    .main_banner{
-        height: 75vh;
-    }
-}
 
 
