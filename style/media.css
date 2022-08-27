@@ -35,8 +35,6 @@
     .footer_lists{
         margin-left: 100px;
     }
-
-
 }
 
 @media screen and (max-width: 880px) {
@@ -133,7 +131,6 @@
 @media screen and (max-width: 577px) {
     .footer_lists {
         width: 219px;
-
     }
     .footer_button_1 {
         display: block;
@@ -224,8 +221,8 @@
     }
 }
 
-
 @media screen and (max-width: 390px) {
+
     .section_main {
         height: 85vh;
     }

@@ -90,8 +90,8 @@ header{
     padding-bottom: 71px;
 }
 .main_page{
-    width: 580px;
-    margin-right: 62px;
+    max-width: 580px;
+    text-align: center;
 }
 .slogan{
     font-family: 'Poppins',sans-serif;
