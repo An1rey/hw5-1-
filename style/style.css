@@ -169,6 +169,64 @@ header{
     display: block;
     margin-right: 6px;
 }
+.gear_cage{
+    min-height: 540px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 100px;
+
+}
+.central_box{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+}
+.gear_cage h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+    margin-top: 20px;
+}
+.gear_cage h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+    max-width: 514px;
+
+}
+.gear_cage .central_box p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    max-width: 514px;
+}
+.gear_cage .check {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("../images/sweden.jpg");
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
 .what_we_do {
     padding-top: 112px;
     padding-bottom: 100px;
@@ -719,7 +777,6 @@ footer{
 .owl-nav .owl-prev{
     position: absolute;
     left: 0;
-
     top:130px;
 }
 .owl-nav .owl-prev:before{
